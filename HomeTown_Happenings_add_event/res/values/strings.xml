@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="input_title">Enter Event Title</string>
+    <string name="button_title">Title:</string>
+</resources>
