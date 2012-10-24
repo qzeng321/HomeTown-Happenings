@@ -1,0 +1,39 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <RadioGroup android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton android:layout_height="wrap_content"
+            android:id="@+id/radio0" android:layout_width="wrap_content"
+            android:text="Show View 1" android:checked="true"></RadioButton>
+        <RadioButton android:layout_height="wrap_content"
+            android:id="@+id/radio1" android:layout_width="wrap_content"
+            android:text="Show view 2"></RadioButton>
+        <RadioButton android:layout_height="wrap_content"
+            android:id="@+id/radio2" android:layout_width="wrap_content"
+            android:text="Show View 3"></RadioButton>
+    </RadioGroup>
+
+    <ViewFlipper android:id="@+id/ViewFlipper01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!--adding views to ViewFlipper-->
+        <TextView android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First view is now displayed"></TextView>
+        <TextView android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second view is now displayed"></TextView>
+        <TextView android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third view is now displayed"></TextView>
+    </ViewFlipper>
+
+</LinearLayout>

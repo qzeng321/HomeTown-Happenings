@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="15dip"
+        android:id="@+id/title"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="20dip" />
+	<TextView
+        android:id="@+id/time"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentRight="true"
+        android:textSize="15dip" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_alignParentRight="true"
+        android:textSize="15dip" />
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_alignParentRight="true"
+        android:textSize="15dip" />
+
+
+
+	<ImageView
+	    android:id="@+id/image"
+	    android:layout_width="100dip"
+	    android:layout_height="100dip"
+	    android:layout_alignParentTop="true"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/ic_launcher" 
+	    android:layout_marginTop="10dip"
+	    android:layout_marginLeft="10dip"/>
+    
+</RelativeLayout>
